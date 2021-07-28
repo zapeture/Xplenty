@@ -77,5 +77,6 @@ export async function getStaticProps() {
     props: {
       homePageData,
     },
+    revalidate: 30,
   };
 }
